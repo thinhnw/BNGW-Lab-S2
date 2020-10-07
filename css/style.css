@@ -6,10 +6,10 @@ body {
     font-size: 100%;
 }
 .container {
-    width: 800px; 
+    width: 900px; 
     margin: 0 auto;
     background: #fff;
-    padding: 10% 10%;
+    padding: 5% 7%;
     box-sizing: border-box;
 }
 h1, h2, h3, p {
