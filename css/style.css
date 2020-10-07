@@ -3,7 +3,7 @@
 }
 body {
     background: #000;
-    font-size: 15px; 
+    font-size: 100%;
 }
 .container {
     width: 800px; 
@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 h1, h2, h3, p {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 .info {
     margin-bottom: 1.5rem;
@@ -21,6 +21,10 @@ h1, h2, h3, p {
 ul {
     padding-left: 0;
     list-style-position: inside;
+}
+li > p {
+    display: inline;
+    padding-left: 10px;
 }
 .employmentHistory  h3 {
     margin-top: 1.5rem;
